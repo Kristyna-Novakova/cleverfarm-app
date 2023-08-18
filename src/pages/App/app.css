@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.sensor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.sensor-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  transition: transform 0.2s;
+  width: 50%;
+  flex: 0 0 calc(100% - 20px);
+}
+
+.sensor-card:hover {
+  transform: scale(1.05);
+}
+
+.sensor-detail {
+  text-align: left;
+  padding: 20px;
+}
+
+
+@media (min-width: 640px) {
+  .sensor-card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
