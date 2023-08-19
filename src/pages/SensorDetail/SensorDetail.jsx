@@ -18,7 +18,7 @@ const SensorDetail = ({ sensor, onBackClick }) => {
           <Button
             variant="outlined"
             onClick={onBackClick}
-            style={{ marginTop: '10px' }}
+            style={{ marginTop: '16px' }}
           >
             Back to Overview
           </Button>
