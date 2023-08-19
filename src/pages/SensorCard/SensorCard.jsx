@@ -9,7 +9,11 @@ const SensorCard = ({ sensor, onClick }) => {
           {sensor.name}
         </Typography>
         <Typography>{sensor.description}</Typography>
-        <Button variant="outlined" onClick={() => onClick(sensor.id)}>
+        <Button
+          variant="outlined"
+          onClick={() => onClick(sensor.id)}
+          style={{ marginTop: '10px' }}
+        >
           View Details
         </Button>
       </CardContent>

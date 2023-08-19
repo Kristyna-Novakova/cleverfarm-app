@@ -39,8 +39,12 @@ body {
 
 .map-container {
   width: 100%;
-  height: 400px;
+  height: 300px;
   margin-top: 20px;
+}
+
+li {
+  display: none;
 }
 
 
